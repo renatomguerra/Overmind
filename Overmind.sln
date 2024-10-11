@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{9B4A7456-7726-4CC2-AFF6-7E15C07E7441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{067288D5-1716-4B46-8959-29BEDD905968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{C96BBB77-F8FE-4E5B-9CBE-9D9BC4F5A265}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{ECB04FB7-CF67-4EF3-91E1-BEC8D1DB5B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overmind.PraticalEvaluation.Application", "Overmind.PraticalEvaluation.Application\Overmind.PraticalEvaluation.Application.csproj", "{03727EF1-1E21-4F1F-AD87-879F17730DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overmind.PraticalEvaluation.Domain", "Overmind.PraticalEvaluation.Domain\Overmind.PraticalEvaluation.Domain.csproj", "{B2D4BE2B-0006-4F97-871D-D637973A0ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overmind.PraticalEvaluation.Infrastructure", "Overmind.PraticalEvaluation.Infrastructure\Overmind.PraticalEvaluation.Infrastructure.csproj", "{AA1BCC3B-EAEB-49DA-AE40-0D4323F99A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overmind.PraticalEvaluation.UI", "Overmind.PraticalEvaluation.UI\Overmind.PraticalEvaluation.UI.csproj", "{E4E23CF1-7AB7-46C5-B03F-48C4AEE98D49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03727EF1-1E21-4F1F-AD87-879F17730DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03727EF1-1E21-4F1F-AD87-879F17730DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03727EF1-1E21-4F1F-AD87-879F17730DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03727EF1-1E21-4F1F-AD87-879F17730DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D4BE2B-0006-4F97-871D-D637973A0ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D4BE2B-0006-4F97-871D-D637973A0ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D4BE2B-0006-4F97-871D-D637973A0ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D4BE2B-0006-4F97-871D-D637973A0ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1BCC3B-EAEB-49DA-AE40-0D4323F99A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1BCC3B-EAEB-49DA-AE40-0D4323F99A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1BCC3B-EAEB-49DA-AE40-0D4323F99A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1BCC3B-EAEB-49DA-AE40-0D4323F99A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E23CF1-7AB7-46C5-B03F-48C4AEE98D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E23CF1-7AB7-46C5-B03F-48C4AEE98D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E23CF1-7AB7-46C5-B03F-48C4AEE98D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E23CF1-7AB7-46C5-B03F-48C4AEE98D49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03727EF1-1E21-4F1F-AD87-879F17730DEA} = {067288D5-1716-4B46-8959-29BEDD905968}
+		{B2D4BE2B-0006-4F97-871D-D637973A0ADA} = {C96BBB77-F8FE-4E5B-9CBE-9D9BC4F5A265}
+		{AA1BCC3B-EAEB-49DA-AE40-0D4323F99A84} = {ECB04FB7-CF67-4EF3-91E1-BEC8D1DB5B2C}
+		{E4E23CF1-7AB7-46C5-B03F-48C4AEE98D49} = {9B4A7456-7726-4CC2-AFF6-7E15C07E7441}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90C35A22-EB6E-49CF-B8D9-6D8FE4333199}
+	EndGlobalSection
+EndGlobal
